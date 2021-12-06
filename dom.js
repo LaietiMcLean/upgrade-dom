@@ -17,11 +17,12 @@ window.onload = () => {
 
 //1.6
     var textMe4 = document.querySelectorAll("span[data-function='testMe']");
-        for (let i = 0; i < textMe4.length; i++) {
+        /*for (let i = 0; i < textMe4.length; i++) {
             if (i === 3) {
                 console.log(textMe4[i])
                 break;
             }
-        } 
-        
+        } */
+    console.log(textMe4[3]); 
+
 }
